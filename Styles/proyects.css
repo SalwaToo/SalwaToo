@@ -1,0 +1,185 @@
+
+.proyects-title {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(230, 125, 125);  
+}
+
+.development-proyects {
+    margin-top: 10%;
+    padding: 10px;
+    background-color: rgb(180, 69, 69);
+}
+
+.discordjs {
+    margin-top: 5%;
+    padding: 12px;
+    display: flex;
+    text-align: center;
+}
+
+.development {
+    margin-top: 10%;
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(230, 125, 125);  
+}
+
+.development-nodejs {
+    font-weight: bold;
+    color: rgb(230, 125, 125);  
+}
+
+.title {
+    padding: 12px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(230, 125, 125);  
+}
+
+.annieko-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 12px;
+    border-radius: 15px;
+}
+
+.aesaka-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 12px;
+
+    border-radius: 15px;
+}
+
+.annieko-details {
+    color: white;
+    font-weight: bold;
+    margin-left: 200px;
+    max-width: 40%;
+}
+
+.aesaka-details {
+    color: white;
+    font-weight: bold;
+    margin-left: 140px;
+    max-width: 50%;
+}
+
+.web-proyects {
+
+    padding: 12px;
+    background-color: rgb(180, 69, 69);
+}
+
+.webs {
+    margin-top: 5%;
+
+}
+.web-development {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(230, 125, 125);
+}
+
+.ponydaily {
+    margin: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(230, 125, 125);  
+}
+
+.aesaka-web {
+    margin: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(230, 125, 125);  
+}
+
+.ponydaily-details {
+    color: white;
+    margin-left: 350px;
+
+    font-weight: bold;
+    max-width: 40%;
+}
+
+.aesaka-web-details {
+    color: white;
+    margin-left: 375px;
+
+    font-weight: bold;
+    max-width: 40%;
+
+}
+
+.years {
+    color:rgb(224, 191, 0);
+}
+
+@media (max-width: 768px) {
+ 
+  .discordjs {
+      display: block;
+      text-align: none;
+  }
+  
+  .title {
+      text-align: center;
+      font-weight: bold;
+      color: rgb(230, 125, 125);  
+  }
+  
+  .annieko-img {
+      width: 200px;
+      height: 200px;
+      margin: 0 12px;
+      border-radius: 15px;
+  }
+  
+  .aesaka-img {
+      width: 200px;
+      height: 200px;
+      margin: 0 12px;
+  
+      border-radius: 15px;
+  }
+  
+  .annieko-details {
+      color: white;
+      font-weight: bold;
+      margin: 12px 0;
+      margin-left: 0;
+      max-width: 100%;
+  }
+  
+  .aesaka-details {
+      color: white;
+      font-weight: bold;
+      margin: 12px 0;
+      margin-left: 0;
+      max-width: 100%;
+  }
+  
+.ponydaily-details {
+    color: white;
+    margin-left: 0;
+
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.aesaka-web-details {
+    color: white;
+    margin-left: 0;
+
+    font-weight: bold;
+    max-width: 100%;
+
+}
+}

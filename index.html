@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,initial-scale=1.0">
+    <title>SalwaToo</title>
+    <link rel="shortcut icon" href="SalwaTooTransparency.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Styles/navigation.css">
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="stylesheet" href="./Styles/profile.css">
+    <link rel="stylesheet" href="./Styles/experiencie.css">
+    <link rel="stylesheet" href="./Styles/proyects.css">
+    <link rel="stylesheet" href="./Styles/contact.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img class="salwatoo-logo" src="SalwaToo.jpg" alt="SalwaToo"> <a href="#" class="logo nav-link">SalwaToo</a>
+            <button class="nav-toggle" aria-label="Abrir Menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="#profile" class="nav-menu-link nav-link">Perfil</a></li>
+                <li class="nav-menu-item"><a href="#projects" class="nav-menu-link nav-link">Proyectos</a></li>
+                <li class="nav-menu-item"><a href="#contact" class="nav-menu-link nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="profile">
+        <div class="profile-info">
+        </div>
+        
+        <div class="profile-img-section">
+            <img class="SalwaToo" src="SalwaToo.jpg" alt="SalwaToo">
+
+        </div>
+        <h1 class="profile-title"> ¡Soy SalwaToo!</h1>
+
+        <p class="profile-details">
+            Un chico amante a la ciencia y a la tecnología.
+        </p>
+    </section>
+    <section class="skills">
+        <h2 class="skills-title">Mis Habilidades</h2>
+        <ul class="skills-list">
+            <li class="skills-skill">Html</li>
+            <li class="skills-skill">Css</li>
+            <li class="skills-skill">JavaScript</li>
+            <li class="skills-skill">Ruby</li>
+        </ul>
+    </section>
+        <section class="proyects">
+            <h2 class="proyects-title">Mis Proyectos</h2>
+                <div class="web-proyects">
+                    <h2 class="web-development">Páginas en desarrollo</h2>
+                        <div class="webs">
+                            <h3 class="aesaka-web">
+                                Aesaka Web
+                            </h3>
+                            <div class="aesaka-web">
+                               <p class="aesaka-web-details">
+                                    Es una página que ofrece información sobre Aesaka, su función principal es el poder configurar sus comandos desde esta.</p>
+                            </div>
+                           
+                        </div>
+                </div>
+            <div class="development-proyects">
+                <h2 class="development">Proyectos de discord.js</h2>
+                <div class="discordjs">
+                    <div class="annieko">
+                        <h3 class="title">Annieko</h3>
+                        <img class="annieko-img" src="Annieko.jpg" alt="Annieko" srcset="">
+                        <h2 class="years">2016 - 2020</h2>
+                        <p class="annieko-details">Annieko es/era una bot creada en discord.js, con el único propósito
+                            de incentivar actividad al servidor, y evitando tantos bots en mismo servidor, 1 año después llegó Aesaka.
+                        </p>
+                    </div>
+                    <div class="aesaka">
+                        <h3 class="title">Aesaka</h3>
+                        <img class="aesaka-img" src="Aesaka.png" alt="Aesaka" srcset="">
+                        <h2 class="years">2021 - 2022</h2>
+                        <p class="aesaka-details">Aesaka es una bot creada en discord.js, con el mismo propósito que Annieko, es una bot totalmente igual, pero muy
+                            mejorada en todos los sentidos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+                <h2 class="contact-me">Contacto</h2>
+                <form action="" class="formulation">
+                    <h2 class="form-contact">Formulario de contacto</h2>
+                    <input class="input-type" type="text" placeholder="Ingresa tu nombre">
+                    <input class="input-type" type="email" name="email" id="" placeholder="Ingresa tu email">
+
+                    <h3 class="question-contact">¿Por qué me contactas?</h3>
+
+                    <select class="input-type" name="name" id="">
+                        <option value="">--Sin valor seleccionado--</option>
+                        <option value="">Colaboración con usted</option>
+                        <option value="">Necesito ayuda con mi proyecto</option>
+                        <option value="">Otro</option>
+                    </select>
+                    <div class="checkbox">
+                        <input class="input-check" type="checkbox" name="" id="">Marca la casilla si necesitas agregar más información.</input>
+                        <textarea class="textComment textComment-disabled" name="comment" id="textarea" cols="30" rows="10"></textarea>
+<!--                         <label class="label-item">¿Es correcta la información que acabas de proporcionar?</label>
+ -->                        <select class="input-type" name="" id="">
+                            <option  value="">--Sin valor seleccionado--</option>
+                            <option value="">Sí</option>
+                            <option value="">Pienso que sí es correcto</option>
+                        </select>
+                       
+                    </div>
+                            <input class="btn-input-submit btn-disabled" type="submit" disabled value="Enviar">
+                    </form>
+        </section>
+    <script src="/JavaScript/navMenuVisible.js"></script>
+    <script src="/JavaScript/NoSelectionText.js"></script>
+    <script src="https://kit.fontawesome.com/f78218491b.js" crossorigin="anonymous"></script>
+</body>
+</html>

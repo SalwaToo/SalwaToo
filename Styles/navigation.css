@@ -1,0 +1,153 @@
+
+
+.header {
+    background-color: #fd9797;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.salwatoo-logo {
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    border-radius: 100%;
+    margin-right: -440px;
+    margin-top: 5px;
+    line-height: 50px;
+}
+
+.logo {
+    
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 50px;
+}
+
+.logo:hover {
+    text-decoration: underline;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    width: max-content;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 50px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.nav-menu-link:hover {
+    background-color: #fa8686;
+    transition: 0.5s;
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 50px;
+    cursor: pointer;
+
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+.header {
+    height: 40px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 20px;
+    line-height: 40px;
+    
+}
+
+.nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    list-style: none;
+    background-color: rgb(216, 100, 100);
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    padding: 0;
+
+    height: calc(100% - 40px);
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 1s;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 60px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.salwatoo-logo {
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    border-radius: 100%;
+    margin-right: -250px;
+    margin-top: 0;
+    line-height: 40px;
+}
+
+.nav-menu-link:hover {
+    background: none;
+    color: #2e2e2e;
+    transition: 0.5s;
+}
+
+.nav-toggle {
+    line-height: 40px;
+
+    display: block;
+
+}
+
+.nav-menu_visible {
+    left: 0;
+}
+
+}

@@ -1,0 +1,84 @@
+.profile-img-section {
+    position: relative;
+}
+
+.SalwaToo {
+    width: 300px;
+    height: 400px;
+    margin: 5% 12px; 
+    border-radius: 5px;
+}
+
+.profile {
+   margin-top: 8%;
+   text-align: center;
+   justify-content: space-between;
+}
+
+.profile-title {
+    font-size: 24px;
+    color: rgb(230, 125, 125);
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+
+.profile-details {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.skills {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.skills-title {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(230, 125, 125);  
+}
+
+.skills-skill {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    background-color: rgb(218, 115, 115);
+    margin: 10px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+
+.profile {
+    margin-top: 25%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.profile-details {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+}
