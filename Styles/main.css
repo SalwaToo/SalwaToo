@@ -18,3 +18,7 @@ body {
     cursor: default;
 }
 
+
+body::selection {
+    background-color: #fa8686;
+}
