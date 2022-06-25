@@ -5,11 +5,11 @@
 
 body::-webkit-scrollbar {
     width: 7px;
+    border-radius: 2%;
 }
 
 body::-webkit-scrollbar-thumb {
     background-color: #fa8686;
-    border-radius: 2%;
 }
 
 body {
