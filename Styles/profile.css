@@ -32,6 +32,9 @@
     margin: 0 auto;
 }
 
+.fa-js {
+    color: yellow;
+}
 .skills {
     max-width: 980px;
     margin: 0 auto;
