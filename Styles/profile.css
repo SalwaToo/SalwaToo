@@ -34,6 +34,8 @@
 
 .icon-js {
     background-color: yellow;
+    width: 20%;
+    height: 10%;
 }
 .skills {
     max-width: 980px;
