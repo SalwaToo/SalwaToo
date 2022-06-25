@@ -5,7 +5,6 @@
 
 body::-webkit-scrollbar {
     width: 7px;
-    border-radius: 2%;
 }
 
 body::-webkit-scrollbar-thumb {
